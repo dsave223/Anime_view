@@ -156,34 +156,68 @@ main{
     display: flex;
     width: 100%;
     height: 70%;
+    flex-direction: row-reverse;
 }
 
 .mn-cnt-global{
     display: flex;
     flex-direction: column;
+    width: 70%;
+    height: 100%;
+    align-items: center;
 }
 
 .mn-cnt-seccion-present{
     display: flex;
     flex-direction: column;
+    width: 100%;
+    height: 50%;
 }
 
-.scn-pnt-title-two{
+.scn-pnt-seccion-one{
     backdrop-filter: blur(5px);
     background-color: #cba3ff36;
-    height: 30%;
-    width: 70%;
+    height: 20%;
+    width: 25%;
+    border-radius: 1.2vh;
+    justify-content: center;
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin: 0 75% 0 0;
+}
+
+.scn-pnt-seccion-two{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
 main h2{
-    color: aqua;
-    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
 }
 
+main h1{
+    font-size: 2.6rem;
+    margin: 0;
+    width: 100%;
+} 
 
+main button{
+    color: white;
+    border: none;
+}
+
+.btn-more{
+    width: 12%;
+    background-color: #593e7d;
+    height: 16%;
+    border-radius: 1.2vh;
+    margin: 4% 60% 0 0;
+}
 
 footer{
     display: flex;
