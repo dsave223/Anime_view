@@ -5,9 +5,9 @@ html,body{
 }
 
 body{
-    background-image: url('https://get.wallhere.com/photo/tofu-anime-girls-black-background-red-eyes-black-hair-minimalism-Chinese-Japanese-Art-Yuki-Aim-2125253.jpg');
     background-size: cover;
-    font-family: "Inconsolata", monospace;
+    font-family: "Asap", sans-serif;
+    font-optical-sizing: auto;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -143,9 +143,11 @@ header button{
     font-size: 1rem;
     width: 60%;
     height: 40%;
-    font-family: "Inconsolata", monospace;
+    font-family: "Asap", sans-serif;
+    font-optical-sizing: auto;
     border-radius: 1.4vh;
     transition: box-shadow 0.3s ease;
+    cursor: pointer;
 }
 
 header button:hover {
@@ -162,10 +164,11 @@ main{
 .mn-cnt-global{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 60%;
     height: 100%;
     align-items: center;
     justify-content: center;
+    gap: 10%;
 }
 
 .mn-cnt-seccion-present{
@@ -173,12 +176,13 @@ main{
     flex-direction: column;
     width: 100%;
     height: 50%;
+    margin-top: 6%;
 }
 
 .scn-pnt-seccion-one{
     width: 100%;
     display: flex;
-    height: 15%;
+    height: 12%;
 }
 
 .scn-one-title{
@@ -186,7 +190,7 @@ main{
     backdrop-filter: blur(5px);
     background-color: #cba3ff36;
     height: 100%;
-    width: 32%;
+    width: 24%;
     justify-content: center;
     border-radius: 1.2vh;
     align-items: center;
@@ -203,11 +207,11 @@ main{
 
 main h2{
     color: rgb(255, 255, 255);
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 main h1{
-    font-size: 4rem;
+    font-size: 4.4rem;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -216,8 +220,12 @@ main h1{
 main button{
     margin: 0;
     padding: 0;
-    color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: none;
+    font-family: "Asap", sans-serif;
 }
 
 main button:hover {
@@ -226,11 +234,14 @@ main button:hover {
 
 .btn-more{
     width: 16%;
-    background-color: #593e7d;
+    background-color: white;
     height: 16%;
     font-size: 1.1rem;
     border-radius: 1.2vh;
     margin-top: 2%;
+    font-family: "Asap", sans-serif;
+    font-variation-settings:"wdth" 100;
+    cursor: pointer;
 }
 
 .mn-cnt-seccion-btn{
@@ -239,21 +250,50 @@ main button:hover {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
+    margin-top: 5.2%;
+    justify-content: center;
     gap: 4%;
 }
 
 .btn-one{
-    height: 45%;
-    width: 16%;
-    background-color: #593e7d;
-    border-radius: 1.2vh;
-    margin: 5% 0 0 0;
+    height: 8vh;
+    width: 8vh;
+    backdrop-filter: blur(5px);
+    background-color: #cba3ff36;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 70vh;
+    cursor: pointer;
+    margin-left: 65%;
 }
 
 .btn-two{
-    background-color: #593e7d;
-    height: 45%;
-    width: 16%;
-    margin: 5% 12% 0 0;
-    border-radius: 1.2vh;
+    backdrop-filter: blur(5px);
+    background-color: #cba3ff36;
+    height: 8vh;
+    width: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 70vh;
+    cursor: pointer;
+}
+
+main i{
+    color: white;
+}
+
+.mn-content-music-global{
+    width: 40%;
+    height: 100%;
+    display: flex;
+}
+
+.mn-cnt-musica{
+    display: flex;
+    width: 100%;
+    height: 15%;
+    background-color: blanchedalmond;
+    margin-top: 84%;
 }
